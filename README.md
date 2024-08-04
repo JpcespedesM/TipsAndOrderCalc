@@ -1,30 +1,10 @@
-# React + TypeScript + Vite
+#TIPS AND ORDER CALCULATOR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Description
+This project is created in Vite + React + Typescript. It allows you to select a variety of products from a restaurant menu, add them to the order, delete them from it or increase its quantity. It also allows you to select the tip % you want to give, and it calculates the total to pay.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##What I learned
+* Create my own hooks, so that my code would be more reusable.
+* Use of Tailwind to give style to every component of the web site.
+* Use of useMemo and useCallBack, why and when should I use them and the differences between them.
+* Improved performance rendering some components.
